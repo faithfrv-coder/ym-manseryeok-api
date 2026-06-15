@@ -10,7 +10,7 @@ try {
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_VERSION = 'RENDER_MANSERYEOK_API_V1_0_7_1';
+const API_VERSION = 'RENDER_MANSERYEOK_API_V1_0_7_3';
 
 app.use(express.json({ limit: '1mb' }));
 
