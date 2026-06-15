@@ -1,0 +1,19 @@
+{
+  "name": "ym-manseryeok-api",
+  "version": "1.0.7.1",
+  "description": "YM Render Manseryeok API for precise Korean Four Pillars calculation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fullstackfamily/manseryeok": "latest",
+    "express": "^4.18.2",
+    "manseryeok": "latest"
+  }
+}
